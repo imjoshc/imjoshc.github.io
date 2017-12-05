@@ -30,18 +30,16 @@
         background: black;
 
         /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
+
+      }
+      .center {
+        text-align: center;
+        position:relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        width:80%;
       }
     </style>
   </head>
@@ -54,9 +52,9 @@
         <div class="swiper-slide">
           <div style="background-image:url('https://www.splcenter.org/sites/default/files/atlanta-ice-raids_0.jpg'); width:100%; height:100%; background-size:110% auto; background-repeat:no-repeat">
             <div class="center">
-              <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+              <br> <br> <br> <br> <br> <br> <br> <br>
               <div style="background-color:rgba(0,0,0,0.5);"> 
-                   <h1 style="font-family: Proxima Nova Condensed; font-size: 40pt; font-style:italic; color:#ffff"> Illegal Deportation on <br> Long Island? </h1>
+                   <h1 style="font-family: Proxima Nova; font-size: 40pt; font-style:italic; color:#ffff"> Illegal Deportation on <br> Long Island? </h1>
               </div>
               <h4 style="font-family: Proxima Nova; font-style:italic; font-size:24pt; color:white;">By: Joshua Cohen</h4>
             </div>
@@ -65,24 +63,27 @@
     
         
         <div class="swiper-slide">
-         On November 20th, lawyers from the Cetral American Refugee Center, a Long Island based immigration services center, and the Hofstra Law Clinic filed suit against Nassau County in New York Supreme Court for illegal practices in detaining immigrants. 
+          <div class= "center"> 
+         On November 20th, lawyers from the Central American Refugee Center, a Long Island based immigration services center, and the Hofstra Law Clinic filed suit against Nassau County in New York Supreme Court for illegal practices in detaining immigrants. 
         </div>
-    
-
-
-
+        </div>
+       
+                                 
         <div class="swiper-slide">
-          <img src= "https://user-images.githubusercontent.com/33666025/33618584-f3342ab2-d9b0-11e7-9f73-c75f20852b10.jpg" width="100%; height:100%;>
+          <div class= "center">
+            Following the traffic stop of Denis Guerra Guerra in August for failing to signal when changing lanes, a Nassau County police officer discovered a pending order of removal from ICE, the United States Immigration and Customs Enforcement Agency and took him under custody which resulted in his deportion to El Salvador.         </div>
         </div>
         
         
         
-    
-                                 
-                               
-                                 
-        <div class="swiper-slide">Slide 5</div>
         <div class="swiper-slide">Slide 6</div>
+        
+        <div class="swiper-slide">
+        <div class= "center">
+          <img src="https://user-images.githubusercontent.com/33666025/33618584-f3342ab2-d9b0-11e7-9f73-c75f20852b10.jpg" width="100%">
+        </div>                                                                                         
+      </div>
+      
         <div class="swiper-slide">Slide 7</div>
 
         <div class="swiper-slide">
